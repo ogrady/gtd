@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="15" height="15" tilewidth="59" tileheight="59">
+ <tileset firstgid="1" name="Tileset_Desert" tilewidth="59" tileheight="59">
+  <image source="Tileset_Desert_test.png" trans="ff00ff" width="1126" height="1524"/>
+  <tile id="0">
+   <properties>
+    <property name="gtype" value="SAND_WAY"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="gtype" value="SAND_WAY"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="gtype" value="SAND_WAY"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="gtype" value="SAND_WAY"/>
+   </properties>
+  </tile>
+  <tile id="19">
+   <properties>
+    <property name="gtype" value="SAND_WAY"/>
+   </properties>
+  </tile>
+  <tile id="20">
+   <properties>
+    <property name="gtype" value="SAND_WAY"/>
+   </properties>
+  </tile>
+  <tile id="21">
+   <properties>
+    <property name="gtype" value="SAND_WAY"/>
+   </properties>
+  </tile>
+  <tile id="22">
+   <properties>
+    <property name="gtype" value="SAND_WAY"/>
+   </properties>
+  </tile>
+  <tile id="57">
+   <properties>
+    <property name="gtype" value="SAND"/>
+   </properties>
+  </tile>
+  <tile id="58">
+   <properties>
+    <property name="gtype" value="SAND"/>
+   </properties>
+  </tile>
+  <tile id="59">
+   <properties>
+    <property name="gtype" value="SAND"/>
+   </properties>
+  </tile>
+  <tile id="76">
+   <properties>
+    <property name="gtype" value="SAND"/>
+   </properties>
+  </tile>
+  <tile id="77">
+   <properties>
+    <property name="gtype" value="SAND"/>
+   </properties>
+  </tile>
+  <tile id="78">
+   <properties>
+    <property name="gtype" value="SAND"/>
+   </properties>
+  </tile>
+  <tile id="95">
+   <properties>
+    <property name="gtype" value="SAND"/>
+   </properties>
+  </tile>
+  <tile id="96">
+   <properties>
+    <property name="gtype" value="SAND"/>
+   </properties>
+  </tile>
+  <tile id="97">
+   <properties>
+    <property name="gtype" value="SAND"/>
+   </properties>
+  </tile>
+  <tile id="251">
+   <properties>
+    <property name="gtype" value="GENERIC_OBSTACLE"/>
+   </properties>
+  </tile>
+  <tile id="252">
+   <properties>
+    <property name="gtype" value="GENERIC_OBSTACLE"/>
+   </properties>
+  </tile>
+  <tile id="253">
+   <properties>
+    <property name="gtype" value="GENERIC_OBSTACLE"/>
+   </properties>
+  </tile>
+  <tile id="269">
+   <properties>
+    <property name="gtype" value="GENERIC_OBSTACLE"/>
+   </properties>
+  </tile>
+  <tile id="270">
+   <properties>
+    <property name="gtype" value="GENERIC_OBSTACLE"/>
+   </properties>
+  </tile>
+  <tile id="271">
+   <properties>
+    <property name="gtype" value="GENERIC_OBSTACLE"/>
+   </properties>
+  </tile>
+  <tile id="286">
+   <properties>
+    <property name="gtype" value="GENERIC_OBSTACLE"/>
+   </properties>
+  </tile>
+  <tile id="287">
+   <properties>
+    <property name="gtype" value="GENERIC_OBSTACLE"/>
+   </properties>
+  </tile>
+  <tile id="288">
+   <properties>
+    <property name="gtype" value="GENERIC_OBSTACLE"/>
+   </properties>
+  </tile>
+  <tile id="289">
+   <properties>
+    <property name="gtype" value="GENERIC_OBSTACLE"/>
+   </properties>
+  </tile>
+  <tile id="304">
+   <properties>
+    <property name="gtype" value="GENERIC_OBSTACLE"/>
+   </properties>
+  </tile>
+  <tile id="305">
+   <properties>
+    <property name="gtype" value="GENERIC_OBSTACLE"/>
+   </properties>
+  </tile>
+  <tile id="306">
+   <properties>
+    <property name="gtype" value="GENERIC_OBSTACLE"/>
+   </properties>
+  </tile>
+  <tile id="307">
+   <properties>
+    <property name="gtype" value="GENERIC_OBSTACLE"/>
+   </properties>
+  </tile>
+  <tile id="323">
+   <properties>
+    <property name="gtype" value="GENERIC_OBSTACLE"/>
+   </properties>
+  </tile>
+  <tile id="324">
+   <properties>
+    <property name="gtype" value="GENERIC_OBSTACLE"/>
+   </properties>
+  </tile>
+  <tile id="325">
+   <properties>
+    <property name="gtype" value="GENERIC_OBSTACLE"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="476" name="Tileset_Desert_+_right" tilewidth="59" tileheight="59">
+  <image source="Tileset_Desert_right_test.png" trans="ff00ff" width="1126" height="1524"/>
+ </tileset>
+ <layer name="ground" width="15" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC7NiYGCwBmIbILYike0LxH5A7E8GOwGIE4E4iQw2qe4cdfOomwezmwExQFxXhAMAAA==
+  </data>
+ </layer>
+ <layer name="path" width="15" height="15">
+  <properties>
+   <property name="blocked" value="true"/>
+   <property name="walkable" value="true"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgoC64w0i+Xgq0kqWXGYhFgVicgDo7ILZH00dIDwwEAnEQlJ3GQJo7U4A4FYlPSfgwAbEYELNQYIYIhfaLUsENlIQBNvcTm15B7kd3NyluQfY/CCOnHwBhnti5hAMAAA==
+  </data>
+ </layer>
+ <layer name="obstacles" width="15" height="15">
+  <properties>
+   <property name="blocked" value="true"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC5XRSU5CQRSF4XpbU1yCgoJzpFE2IJ0bkM4hYOgTFVEBxYFiA7YMQKWxg53wG0weFC/kcZMvqUruqaRyokKIGOLYF5NzgEMcIY9jFHCCU+l8JmWvcI0qbnCLO9yjJp3rUraJFt7wjg+00UFXOvfE9NiUyfsm9y24FI1labbZcWvs7ejI7rIT0LGnNQlySaTmyC9gEQYswQ0PvPDBPyO7jBUYYUIAQYQQRmRG1ooN2GBHEimkkUH2713+YcIq1mCGBev//yuihDLOcYEKLsWoPzsccCrT/T3gEU94xgte0RBqfx544YNfUfv7xBe+8YNf9DEQan9BhBBGBHs6OhnvL40MssjpyA4Bp5EyyIQDAAA=
+  </data>
+ </layer>
+ <layer name="obstacle2" width="15" height="15">
+  <properties>
+   <property name="blocked" value="true"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3LuQ5BARRF0fu05hYxt4i5Rcz//zHmWKXCS5QkTrK6syN+eyfOXLhy484j5V/JRFSpkU0icuQpUKREOXnf9jR9BtR9GjRp0aZDN6VdaJasGPqMGDNhyox5Svu6tc+GLTv2HDh+0P73nXsCK62vbIQDAAA=
+  </data>
+ </layer>
+ <layer name="home &amp; spawn" width="15" height="15">
+  <properties>
+   <property name="blocked" value="true"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3OsQ2AIBRF0V8jjKAYUTdQcQME9p/H29n6teUmp3zJE3maEDBjwSrv27DjQMSp2CZcyCioim2r9TWDDhZOue0xwGP8+eMGbroiP4QDAAA=
+  </data>
+ </layer>
+</map>

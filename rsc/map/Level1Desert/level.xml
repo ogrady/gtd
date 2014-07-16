@@ -1,0 +1,67 @@
+<level name="Level 1" initialMoney="150" initialLifePoints="100">
+	<spawners>
+		<spawner>
+			<waves>
+				<wave>
+					<monster name="SeaSnake" amount="5"/>
+					<monster name="Blob" amount="20"/>
+					<monster name="KingBlob" amount="2"/>
+				</wave>
+				<wave>
+					<monster name="KingBlob" amount="1"/>
+					<monster name="SeaSnake" amount="5"/>
+					<monster name="Blob" amount="20"/>
+				</wave>
+				<wave>
+					<monster name="KingBlob" amount="1"/>
+					<monster name="SeaSnake" amount="50"/>
+					<monster name="Blob" amount="20"/>
+				</wave>			
+				<wave>
+					<monster name="SeaSnake" amount="5"/>
+					<monster name="Blob" amount="20"/>
+					<monster name="KingBlob" amount="2"/>
+				</wave>
+				<wave>
+					<monster name="KingBlob" amount="1"/>
+					<monster name="SeaSnake" amount="5"/>
+					<monster name="Blob" amount="20"/>
+				</wave>
+				<wave>
+					<monster name="KingBlob" amount="1"/>
+					<monster name="SeaSnake" amount="50"/>
+					<monster name="Blob" amount="20"/>
+				</wave>	
+				<wave>
+					<monster name="SeaSnake" amount="5"/>
+					<monster name="Blob" amount="20"/>
+					<monster name="KingBlob" amount="2"/>
+				</wave>
+				<wave>
+					<monster name="KingBlob" amount="1"/>
+					<monster name="SeaSnake" amount="5"/>
+					<monster name="Blob" amount="20"/>
+				</wave>
+				<wave>
+					<monster name="KingBlob" amount="1"/>
+					<monster name="SeaSnake" amount="50"/>
+					<monster name="Blob" amount="20"/>
+				</wave>	
+				<wave>
+					<monster name="SeaSnake" amount="5"/>
+					<monster name="Blob" amount="20"/>
+					<monster name="KingBlob" amount="2"/>
+				</wave>
+				<wave>
+					<monster name="KingBlob" amount="1"/>
+					<monster name="SeaSnake" amount="5"/>
+					<monster name="Blob" amount="20"/>
+				</wave>
+				<wave>
+					<monster name="KingBlob" amount="100"/>
+					<monster name="SeaSnake" amount="50"/>
+				</wave>		
+			</waves>
+		</spawner>
+	</spawners>
+</level>
