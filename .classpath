@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry excluding="*.psd|map/Level1Desert/Grafics" kind="src" path="rsc"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/slick/lwjgl.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="TD/lib/slick/natives-windows"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/slick/slick.jar" sourcepath="lib/slick/src">
+		<attributes>
+			<attribute name="javadoc_location" value="file:/P:/Code/java/default/TD/lib/slick/javadoc/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/SimpleTMX-v3.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
